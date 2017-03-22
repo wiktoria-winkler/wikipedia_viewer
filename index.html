@@ -1,0 +1,32 @@
+<!-- imports needed to wikipedia autocomplete --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+
+<div class="container">
+  <section class="welcome_part">
+    <div class="padding">
+    </div>
+    <div id="logo"><p><strong> W </strong></p></div>
+    
+    <h1 id="hope">Hope you' ll find what you need!
+    </h1>
+    <h5> / Remember - it's never too late to learn something new :) /
+    </h5>   
+  </section>
+  
+  <section id="search_section">
+    <!-- searchform, with text when its empty/focused, without, when you click on it and write something -->
+    <input type="text" class="searchBox" value="" onblur="if(this.value == '') { this.value = 'Search...'; }" onfocus="if(this.value == 'Search...') { this.value = ''; }" name="s">
+<div class="random">
+  <p> or ... </p>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn" id="random_btn">Surprise me, Wiki!</button>
+  </a> 
+    </div>
+<!-- in this div will appear results of seraching -->
+    <div id="outcome">
+    </div>
+  </section>
+  
+</div>
+<footer id="madeBy"> Made by:<a href="http://codepen.io/wiktoria_winkler/full/KgkvVB/"><strong>Wiktoria Winkler</strong></a>. Hope You enjoyed it!</footer>
