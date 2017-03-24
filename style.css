@@ -1,101 +1,123 @@
 body {
-  text-align: center;
-  font-family:Times New Roman;
-  font-size: 30px;
-  background: url("https://www.walldevil.com/wallpapers/a86/2248-simple-wallpapers-mountains-abstract-wallpaper.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-
-}
-#logo{
-
-    font-size:50px;
-  color:white;
-  border-style:dotted;
-  border-color:#006666;
-  border-radius:5px;
-  width: 80px;
-  height: 75px;
-  margin: 0 auto;
-
-}
-.random {
-  padding-top: 20px;
+    font-family: Times New Roman!important;
+    text-align: center;
+    background: url("https://www.walldevil.com/wallpapers/a86/2248-simple-wallpapers-mountains-abstract-wallpaper.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    float: none;
 }
 
-#random_btn {
-  border-style: solid;
-  border-color: #006666;
-  border-width: 1px;
-  background: none;
-  font-size: 15px;
+#logo {
+    color: white;
+    border-style: dotted;
+    border-color: #006666;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
 }
 
-#random_btn:hover {
-  color: white;
+h1 {
+    font-size: 40px;
+    font-weight: lighter;
 }
 
-
-
-
-
-a {
-  color: black;
-  text-decoration: none;
+h5 {
+    font-size: 15px;
+    font-weight: 200;
 }
 
-a:hover {
-  opacity: 0.9;
-  text-decoration: none;
-  font-size: 105%;
-  color: white!important;
+#letter_w {
+    margin: 0 auto;
+    font-size: 50px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.welcome_part {
+    padding-top: 10%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #search_section {
-  padding-top: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#random_btn {
+    border-style: solid;
+    border-color: #006666;
+    border-width: 1px;
+    background: none;
+    font-size: 16px;
+    border-style: dotted;
+    font-weight: 550;
+}
+
+#random_btn:hover {
+    color: white;
+}
+
+a {
+    font-weight: bold;
+    color: white;
 }
 
 .searchBox {
-  background: none repeat scroll 0 0 #fff;
-  border: solid;
-  border-width: 2px;
-  color: #7F7F7F;
-  margin: 0 auto;
-  font-size: 18px;
-  width: 30%;
-  text-align: center;
+    background: none repeat scroll 0 0 #fff;
+    border: solid;
+    border-width: 2px;
+    color: #7F7F7F;
+    min-width: 15%;
+    height: 30px;
 }
- ul.ui-autocomplete {
-      
-   font-size:15px;
-   
-   
-        
-    }
+
+ul.ui-autocomplete {
+    font-size: 15px;
  
+}
 
 #outcome {
-  padding-top: 40px;
-  width: 60%;
-  margin: 0 auto;
-  border-radius: 3px;
+    min-width: 30%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#outcome a {
+    color: black;
+    text-decoration: none;
+ 
 }
 
 #outcome p {
-  background-color: #006666;
+    background-color: #006666;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+   border-radius: 10px;
+
+    border-width: none;
+  
+   
 }
 
 #hope {
-  color: #006666;
-  padding-top:2%;
+    color: #006666;
 }
 
 #invisible {
-  opacity: 0;
-  font-size: 8px;
+    opacity: 0;
+    font-size: 8px;
+
 }
-#madeBy{
-  padding-top:8%;
-  font-size:15px;
-  color:black;
+
+#madeBy {
+    padding-top: 38vh;
+    font-size: 15px;
+    color: antiquewhite;
 }
