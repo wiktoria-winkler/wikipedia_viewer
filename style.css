@@ -73,7 +73,7 @@ a {
     height: 30px;
 }
 
- .ui-autocomplete {
+ ul .ui-autocomplete {
     font-size: 15px;
     color:cadetblue;
  
