@@ -1,42 +1,49 @@
 
 <html>
-<head>
-  <link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="js.js"></script>
-<link rel ="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+	<link rel="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js.js"></script>
 </head>
 
 <body>
 
-<div class="container">
-  <section class="welcome_part">
-    <div class="padding">
-    </div>
-    <div id="logo"><p><strong> W </strong></p></div>
-    
-    <h1 id="hope">Hope you' ll find what you need!
+	<div class="container">
+		<section class="welcome_part">
+
+			<div id="logo">
+
+				<p id="letter_w"> W </p>
+			</div>
+
+
+			<h1 id="hope">Hope you' ll find what you need!
     </h1>
-    <h5> / Remember - it's never too late to learn something new :) /
-    </h5>   
-  </section>
-  
-  <section id="search_section">
-    <!-- searchform, with text when its empty/focused, without, when you click on it and write something -->
-    <input type="text" class="searchBox" value="" onblur="if(this.value == '') { this.value = 'Search...'; }" onfocus="if(this.value == 'Search...') { this.value = ''; }" name="s">
-<div class="random">
-  <p> or ... </p>
-      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn" id="random_btn">Surprise me, Wiki!</button>
-  </a> 
-    </div>
-<!-- in this div will appear results of seraching -->
-    <div id="outcome">
-    </div>
-  </section>
-  
-</div>
-<footer id="madeBy"> Made by:<a href="http://codepen.io/wiktoria_winkler/full/KgkvVB/"><strong>Wiktoria Winkler</strong></a>. Hope You enjoyed it!</footer>
-  </body></html>
+			<h5> / Remember - it's never too late to learn something new :) /
+    </h5>
+		</section>
+
+		<section id="search_section">
+			<!-- searchform, with text when its empty/focused, without, when you click on it and write something -->
+			<input type="text" class="searchBox" value="" onblur="if(this.value == '') { this.value = 'Search...'; }" onfocus="if(this.value == 'Search...') { this.value = ''; }" name="s">
+			<div class="random">
+				<p> or ... </p>
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+					<button class="btn" id="random_btn">Surprise me, Wiki!</button>
+				</a>
+			</div>
+			<!-- in this div will appear results of seraching -->
+			<div id="outcome">
+			</div>
+		</section>
+
+	</div>
+	<footer id="madeBy"> Made by: <a href="http://codepen.io/wiktoria_winkler/full/KgkvVB/">Wiktoria Winkler</a>. Hope You enjoyed it!</footer>
+</body>
+
+</html>
