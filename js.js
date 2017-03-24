@@ -64,6 +64,7 @@ $(document).ready(function() {
               //then it changes colors of those 3 elements:
               
               $("#outcome p").css("background-color", color);
+                
               $("#hope").css("color", color);
               $("#random_btn").css("border-color", color);
               $("#logo").css("border-color",color);
@@ -85,7 +86,7 @@ $(document).ready(function() {
                 link = data[3][j];
 
                 //now it makes html of a result, that ll be added to the "outcome" div
-                $("#outcome").append('<p><a href="' + link + ' "target="blank"><strong>' + title + '</a></strong></br> <div style="font-size:15px;">"' + about + '"</div></a></p><p id="invisible"> </br></p>');
+                $("#outcome").append('<p><a href="' + link + ' "target="blank"><strong>' + title + '</a></strong></br> <div style="font-size:15px; padding-top:15px">"' + about + '"</div></a></p><p id="invisible"> </br></p>');
                 //because of "while" we need to change title to undefined, because if we dont, "while" ll never stop. After that, we are going back to "for" and making a next result, as long as the title != undefined
                 title = undefined;
 
